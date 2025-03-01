@@ -39,7 +39,6 @@ export const timeReferences: TimeReference = {
 
 export function parseTimeExpression(expression: string): moment.Moment {
   const match = expression.match(/(\w+)(?:\.(start|end))?|[+-]\d+[mhdwMyQs]/g);
-  console.log(match);
 
   if (!match) {
     throw new Error(`Invalid time expression: ${expression}`);

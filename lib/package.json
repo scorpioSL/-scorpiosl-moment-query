@@ -1,0 +1,24 @@
+{
+    "name": "@scorpiosl/moment-query",
+    "version": "1.2.0",
+    "description": "create moment values from queries",
+    "author": "Pulasthi Bandara (ScorpioSL)",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/scorpioSL/-scorpiosl-moment-query.git"
+    },
+    "peerDependencies": {
+        "moment": "^2.30.1"
+    },
+    "keywords": [
+        "moment",
+        "time",
+        "query",
+        "moment-query",
+        "momentjs",
+        "momentjs-query",
+        "momentjs-time",
+        "momentjs-time-query"
+    ]
+}

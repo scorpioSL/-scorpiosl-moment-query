@@ -1,5 +1,5 @@
 import moment from 'moment';
-import { parseTimeExpression } from '../lib/moment-query.lib';
+import { parseTimeExpression } from '../src/moment-query.lib';
 
 // write some test cases
 
