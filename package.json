@@ -1,0 +1,36 @@
+{
+  "name": "@scorpiosl/moment-query",
+  "version": "1.0.0",
+  "description": "create moment values from queries",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "npx ts-node src/index",
+    "build": "tsup",
+    "test": "jest"
+  },
+  "author": "Pulasthi Bandara (ScorpioSL)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scorpioSL/-scorpiosl-moment-query.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "add": "^2.0.6",
+    "jest": "^29.7.0",
+    "or": "^0.2.0",
+    "ts-jest": "^29.2.6",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2",
+    "yarn": "^1.22.22"
+  },
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}
